@@ -67,4 +67,4 @@ Also it would be awesome if you add links to source code)
 
 ### 8. unfortunately, I didn't have practice in English ((
 
-### Thanks
+### Thanks!
