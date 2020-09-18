@@ -13,7 +13,7 @@
 
 ## 4. Skills (e.g. programming languages, frameworks, methodologies, version control, tools etc.)
 
-### Javascript, Aris 7.2, Linux, Git
+### Javascript, Aris 7.2, Linux, Git and etc....
 
 ---
 
