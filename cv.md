@@ -15,7 +15,7 @@
 
 ### Javascript, Aris 7.2, Linux, Git and etc....
 
----
+
 
 ## 5. Code examples (LATEST)
 
@@ -65,7 +65,7 @@ Also it would be awesome if you add links to source code)
 
 ---
 
- #### 8. unfortunately, I didn't have practice in English ((
+### 8. unfortunately, I didn't have practice in English ((
 
-### Thanks!
+### Thanks for your attention!
 
