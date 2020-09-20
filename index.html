@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-   
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KovalenkoAM Git&HTML&CSS task</title>
@@ -10,66 +10,65 @@
 </head>
 
 <body>
-    <article>
-        <h2>Добро пожаловать!</h2>
-        <p>Рад приветствовать вас на своей страничке с решением задания по "HTML, CSS & Git Basics".</p>
-    </article>
+    <header>
+        <img class="photo" src="images/KovalenkoAM.png" alt="KovalenkoAM_picture" title="Hello">
+        <h1>Alexandr Kovalenko</h1>
+    </header>
 
-    <article>
+    <main>
+      
+            <h2>Добро пожаловать!</h2>
+            <p>Рад приветствовать вас на своей страничке с решением задания по "HTML, CSS & Git Basics".</p>
+        </article>
 
-        <ol>
-            <li>
-                Hi! My name is Alexander, Kovalenko
-            </li>
-            <li>
-                You can contact me via: <br> <b>+375297498261</b>,
-                <br><b>skype: kovalenkoam</b>,
-                <br> <b>telegram: @kovalenkoam</b>
+        <article>
 
-            </li>
-            <li>
-                <p>Summary</p>
+            <ol>
+                <li>
+                    Hi! My name is Alexander, Kovalenko
+                </li>
+                <li>
+                    You can contact me via: <br> <b>+375297498261</b>,
+                    <br><b>skype: kovalenkoam</b>,
+                    <br> <b>telegram: @kovalenkoam</b>
 
-                <h3>I want to learn JavaScript in a way that makes it feel like a fish in water. I want to study modern
-                    technologies in programming, I want to develop myself, as well as take part in interesting and
-                    complex
-                    projects</h3>
+                </li>
+                <li>
+                    <p>Summary <br>
+                        I want to learn JavaScript in a way that makes it feel like a fish in water. I want to study
+                        modern
+                        technologies in programming, I want to develop myself, as well as take part in interesting and
+                        complex
+                        projects</p>
 
-            </li>
-            <li>
-                <p>
-                    Skills (e.g. programming languages, frameworks, methodologies, version control, tools etc.)
-                </p>
-                <h3>Javascript, Aris 7.2, Linux, Git and etc....</h3>
+                </li>
+                <li>
+                    <p>
+                        Javascript, Aris 7.2, Linux, Git and etc....
+                    </p>
 
-            </li>
-            <li>
-                <p>
-                    Code examples (LATEST)
-                </p>
 
-                <p>
-                    <code>
+                </li>
+                <li>
+                    <p>
+                        Code examples from Aris
+                    </p>
+
+                    <p>
+                        <code>
                         function DropListBoxView(this._elementArray) {
-                            var UserDialogTemplate = Dialogs.createNewDialogTemplate(730, 13, "Параметры формирования отчета",
-                            "dialogEventsDropListBox");//создаем шаблон диалога
-                            UserDialogTemplate.GroupBox(10, 10, 720, 30, "Выберите менеджера ПП, по которому необходимо сформировать
-                            отчет");//добавляем в шаблон рамку
-                            UserDialogTemplate.OptionGroup("Options");//добавляем в шаблон также поле выбора. "Options" - ето
-                            идентификатор поля. По нему потом можно узнать результат выбора.
+                            
                             var selectedString = "ListBoxLeft";
+
                             // eslint-disable-next-line no-unused-vars
-                            var outList = UserDialogTemplate.DropListBox(15, 20, 700, 25,
-                            this._elementArray.map(function (el) {
-                            return el.Name(g_nLoc);
-                            })
-                            , selectedString);
+                            var outList = UserDialogTemplate.DropListBox(15, 20, 700, 25, this._elementArray.map(function (el) {
+                            return el.Name(g_nLoc);}), selectedString);
+                            
                             UserDialogTemplate.OKButton();//добавляем кнопку ОК
                             UserDialogTemplate.CancelButton();//добавляем кнопку Cancel
+                            
                             var dlg = Dialogs.createUserDialog(UserDialogTemplate); //создает диалог на базе нашего шаблона
-                            // nuserdlg =Dialogs.show(__currentDialog = dlg); //отображаем диалог и получаем дезультат (ОК или
-                            Cancel)
-                            // __currentDialog = dlg;
+                            
                             var nuserdlg = Dialogs.show(__currentDialog = dlg);
             
                             if (nuserdlg == 0) {//если Cancel
@@ -82,32 +81,32 @@
             
                             }   
                     </code>
-                </p>
+                    </p>
 
-            </li>
+                </li>
 
-            <li>
-                <p>My education</p>
-                7.1. in 1999 I graduated from the Mogilev State University named after I. A.A. Kuleshova
+                <li>
+                    <p>My education</p>
+                    6.1. 1994-1999  Mogilev State University named after I. A.A. Kuleshova
+<br>
+                    6.2. 2006-2008 Belarussian state economical University with a degree in banking
 
-                7.2. in 2008 I graduated Belarussian state economical University with a degree in banking
+                </li>
+                <li>
+                    <p>
+                        I started learning English from scratch and am constantly trying to improve it
+                    </p>
+                </li>
+            </ol>
 
-            </li>
-            <li>
-                <p>
-                    8. unfortunately, I didn't have practice in English ((
-                </p>
-            </li>
-        </ol>
 
-    </article>
-
+    </main>
+    <footer>
+        <p>
+            Thanks for your attention!
+        </p>
+    </footer>
 
 </body>
-<footer>
-    <p>
-        Thanks for your attention!
-    </p>
-</footer>
 
 </html>

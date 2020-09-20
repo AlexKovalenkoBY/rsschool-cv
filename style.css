@@ -1,31 +1,28 @@
 p {
-    font-size: 12px;
+  font-size: 16px;
+  
 }
 
 ul {
-    list-style: square outside;
+  list-style: square outside;
 }
-
+body {
+  max-width: 1024px;
+  background-color: rgb(230, 224, 224);
+}
 .card-hello {
-
-    background-color: #FA7268;
-    color: #FFFFFF;
-    width: 230px;
-    height: 25px;
-    padding: 20px;
-    margin: 10px;
-    border: 2px solid #9C27B0;
-    font-size: 20px;
-}
-
-.rectangle {
-    width: 300px;
-    height: 100px;
-    background-color: rgb(224, 217, 217);
+  background-color: #cac7c7;
+  color: #ffffff;
+  width: 230px;
+  height: 25px;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #9c27b0;
+  font-size: 20px;
 }
 
 IMG.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
